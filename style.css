@@ -1,0 +1,129 @@
+/* styles.css */
+
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+h1, h2 {
+    font-weight: bold;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #1a1a1a;
+}body {
+    font-family: Arial, sans-serif;
+  }
+  
+  h1, h2 {
+    color: #333;
+  }
+  
+  section {
+    padding: 60px 0;
+  }
+  
+  .card {
+    margin-bottom: 20px;
+  }
+  
+  .card-img-top {
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  /* Mobile responsiveness */
+  @media (max-width: 768px) {
+    .navbar-nav {
+      text-align: center;
+    }
+  
+    .card-img-top {
+      height: 150px;
+    }
+  }
+  
+
+.navbar a {
+    font-size: 16px;
+}
+.about_tez{
+    padding-top: 20px;
+    height: 100%;
+}
+
+/* Resource Cards */
+.card {
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1.5rem;
+}
+
+.card-body {
+    text-align: center;
+}
+
+/* Button Styling */
+.btn-dark {
+    background-color: #333;
+    border-color: #333;
+}
+
+.btn-dark:hover {
+    background-color: #444;
+    border-color: #444;
+}
+
+/* Contact Form */
+.form-control {
+    border-radius: 8px;
+}
+
+/* Footer */
+footer {
+    background-color: #111;
+    color: #fff;
+}
+
+/* Fade In Animation */
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+/* Ensuring videos are responsive and fit within the carousel */
+#videoCarousel iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+/* Style the section to have some padding */
+#watch {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+}
+
+/* Centering the title and text */
+#watch h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+}
+
+#watch p {
+    font-size: 1.1rem;
+    color: #666;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
